@@ -1,0 +1,24 @@
+{
+  "name": "moviesdb",
+  "version": "1.0.0",
+  "description": "movie database with reviews",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrissieSparling/moviesdb.git"
+  },
+  "author": "chrissie sparling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrissieSparling/moviesdb/issues"
+  },
+  "homepage": "https://github.com/ChrissieSparling/moviesdb#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  }
+}
